@@ -32,21 +32,20 @@
     new EcommerceProduct('dog harness',new Dog,'accessories',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
     new EcommerceProduct('dry kibble salmon',new Dog,'food',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
     new EcommerceProduct('wet food chicken',new Dog,'food',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('wet food beef',new Dog,'food',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample)
    ];
 
    $eCommerceProductsForCats=[
     new EcommerceProduct('tuna biscuits',new Cat,'food',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('scratching post',new Cat,'accessories',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('gushing fountain',new Cat,'accessories',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('litter',new Cat,'accessories',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('cat Carrier',new Cat,'accessories',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('chicken dry food',new Cat,'food',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('hand cuddle',new Cat,'games',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('feather wand',new Cat,'games',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('rebus game',new Cat,'games',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('relaxing oil',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('wipes for eyes',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('l-lysine supplement',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
+    new EcommerceProduct('scratching post',new Cat,'accessories',14.50,'./images/scratch-cat.png',$textSample),
+    new EcommerceProduct('gushing fountain',new Cat,'accessories',14.50,'./images/gushing-cat.png',$textSample),
+    new EcommerceProduct('litter',new Cat,'accessories',14.50,'./images/litter.png',$textSample),
+    new EcommerceProduct('cat Carrier',new Cat,'accessories',14.50,'./images/carrier-cat.png',$textSample),
+    new EcommerceProduct('chicken dry food',new Cat,'food',14.50,'./images/chicken-cat.png',$textSample),
+    new EcommerceProduct('hand cuddle',new Cat,'games',14.50,'./images/hand-massage.png',$textSample),
+    new EcommerceProduct('feather wand',new Cat,'games',14.50,'./images/feather-wand.png',$textSample),
+    new EcommerceProduct('rebus game',new Cat,'games',14.50,'./images/rebus.png',$textSample),
+    new EcommerceProduct('relaxing oil',new Cat,'wellness',14.50,'./images/oil.png',$textSample),
+    new EcommerceProduct('wipes for eyes',new Cat,'wellness',14.50,'./images/wipes-for-cat.png',$textSample),
+    new EcommerceProduct('l-lysine supplement',new Cat,'wellness',14.50,'./images/l-lysine.png',$textSample),
    ];
 ?>

@@ -22,7 +22,7 @@
             <h1>E-Commerce for Dogs and Cats</h1>
          </div>
 
-         <div class="col-12 text-center">
+         <div class="col-12 text-center m-5">
             <h2>Products for Cats</h2>
          </div>
          
@@ -31,7 +31,7 @@
                <div class="header-card text-center">
                   <?php echo $eCommerceProductsForCat->productType;?>
                </div>
-               <img src="<?php echo $eCommerceProductsForCat->image;?>"  class="card-img-top rounded-0">
+               <img src="<?php echo $eCommerceProductsForCat->image;?>"  class="card-img-top  h-100 bg-light rounded-0">
                <div class="card-body p-3">
                   <h5 class="card-title">
                      <?php echo $eCommerceProductsForCat->productName;?>
@@ -39,12 +39,44 @@
                   <p class="card-text">
                      <?php echo $eCommerceProductsForCat->getSynopsis(50);?>
                   </p>
+                  <p>price: <?php echo $eCommerceProductsForCat->price; ?></p>
                   <div class="category d-flex">
                     <p class="card-category col m-0 p-0 d-flex align-items-center">
                        category: <?php echo $eCommerceProductsForCat->category->name;?>
                     </p>
                     <div class="w-25">
                       <img class="img-fluid" src="<?php echo $eCommerceProductsForCat->category->icon; ?>" alt="">
+                    </div>
+                    
+                  </div>
+               </div>
+            </div>
+         <?php } ?>
+         
+         <div class="col-12 text-center m-5">
+            <h2>Products for Dogs</h2>
+         </div>
+         
+         <?php foreach($eCommerceProductsForDogs as $eCommerceProductsForDog){?>
+            <div class="card col-3 p-1 m-2 ">
+               <div class="header-card text-center">
+                  <?php echo $eCommerceProductsForDog->productType;?>
+               </div>
+               <img src="<?php echo $eCommerceProductsForDog->image;?>"  class="card-img-top bg-light rounded-0">
+               <div class="card-body p-3">
+                  <h5 class="card-title">
+                     <?php echo $eCommerceProductsForDog->productName;?>
+                  </h5>
+                  <p class="card-text">
+                     <?php echo $eCommerceProductsForDog->getSynopsis(50);?>
+                  </p>
+                  <p>price: <?php echo $eCommerceProductsForCat->price; ?></p>
+                  <div class="category d-flex">
+                    <p class="card-category col m-0 p-0 d-flex align-items-center">
+                       category: <?php echo $eCommerceProductsForDog->category->name;?>
+                    </p>
+                    <div class="w-25">
+                      <img class="img-fluid" src="<?php echo $eCommerceProductsForDog->category->icon; ?>" alt="">
                     </div>
                     
                   </div>
