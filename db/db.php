@@ -48,6 +48,5 @@
     new EcommerceProduct('relaxing oil',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
     new EcommerceProduct('wipes for eyes',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
     new EcommerceProduct('l-lysine supplement',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample),
-    new EcommerceProduct('zinc supplement',new Cat,'wellness',14.50,'./images/okeykat-w6elADh_jww-unsplash.jpg',$textSample)
    ];
 ?>

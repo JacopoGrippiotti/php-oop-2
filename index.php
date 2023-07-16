@@ -37,13 +37,16 @@
                      <?php echo $eCommerceProductsForCat->productName;?>
                   </h5>
                   <p class="card-text">
-                     <?php echo $eCommerceProductsForCat->getSynopsis(40);?>
+                     <?php echo $eCommerceProductsForCat->getSynopsis(50);?>
                   </p>
-                  <div class="category">
-                    <p class="card-category">
-                       category:<?php echo $eCommerceProductsForCat->category->name;?>
+                  <div class="category d-flex">
+                    <p class="card-category col m-0 p-0 d-flex align-items-center">
+                       category: <?php echo $eCommerceProductsForCat->category->name;?>
                     </p>
-                    <img class="img-fluid" src="<?php echo $eCommerceProductsForCat->category->icon; ?>" alt="">
+                    <div class="w-25">
+                      <img class="img-fluid" src="<?php echo $eCommerceProductsForCat->category->icon; ?>" alt="">
+                    </div>
+                    
                   </div>
                </div>
             </div>
