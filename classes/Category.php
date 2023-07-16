@@ -5,7 +5,7 @@
    }
    
    class Cat{
-     protected $name = 'Cat'
-     protected $icon = './images/cat.png '
+     protected $name = 'Cat';
+     protected $icon = './images/cat.png ';
    }
 ?>
