@@ -6,7 +6,7 @@
     public $price;
     public $image;
 
-    function__construct($_productName, $_category, $_productType, $_price, $_image){
+    function__construct(String $_productName, Category $_category,String $_productType, Float $_price, String $_image){
 
          $this->productName = $_productName;
          $this->category = $_category;
