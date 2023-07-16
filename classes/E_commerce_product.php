@@ -1,13 +1,16 @@
 <?php 
+
+   include_once __DIR__ . '/Category.php';
+
    class EcommerceProduct{
     public $productName;
     public $category;
     public $productType;
     public $price;
     public $image;
-    public $description
+    public $description;
 
-    function__construct(String $_productName, Category $_category,String $_productType, Float $_price, String $_image, String $_description){
+    function __construct(String $_productName, $_category,String $_productType, Float $_price, String $_image, String $_description) {
 
          $this->productName = $_productName;
          $this->category = $_category;
@@ -18,8 +21,8 @@
     }
 
     public function getSynopsis(Int $length){
-      return substr($this->content, 0, $length);
+      return substr($this->description, 0, $length);
   }
-   }
+ }
 
 ?>
