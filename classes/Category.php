@@ -1,7 +1,7 @@
 <?php   
-   class dog{
-
-    public $name = 'dog';
+   class Dog{
+    protected $name = 'dog';
+    protected $icon = './images/dog-29-48.png';
    }
 
 ?>
