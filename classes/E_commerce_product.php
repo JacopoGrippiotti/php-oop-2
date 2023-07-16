@@ -17,6 +17,9 @@
          $this->description = $_description;
     }
 
+    public function getSynopsis(Int $length){
+      return substr($this->content, 0, $length);
+  }
    }
 
 ?>
